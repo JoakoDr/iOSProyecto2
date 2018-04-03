@@ -8,7 +8,8 @@
 
 import UIKit
 
-class VCPrincipal: UIViewController {
+class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource{
+    @IBOutlet var tbMiTabla:UITableView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +21,13 @@ class VCPrincipal: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 3;
+    }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return nil;
+    }
 
     /*
     // MARK: - Navigation
