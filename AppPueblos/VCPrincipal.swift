@@ -21,12 +21,13 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func numberOfSections(in tableView: UITableView) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 3;
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return nil;
+        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "micelda1")!
+        return cell;
     }
 
     /*
