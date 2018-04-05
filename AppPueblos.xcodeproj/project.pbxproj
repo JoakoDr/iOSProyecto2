@@ -449,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = AppPueblos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AppPueblos.AppPueblos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = AppPueblos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AppPueblos.AppPueblos;
 				PRODUCT_NAME = "$(TARGET_NAME)";

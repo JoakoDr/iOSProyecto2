@@ -32,6 +32,18 @@ class VCPrincipal2: UIViewController, UICollectionViewDelegate, UICollectionView
     cell.imgLis?.image=UIImage(named: "pueblo.jpg")
         
         }
+    else if(indexPath.row==2)
+    {
+        cell.lblMensaje?.text?="Pueblossssss"
+        cell.imgLis?.image=UIImage(named: "pueblo.jpg")
+        
+        }
+    else if(indexPath.row==3)
+    {
+        cell.lblMensaje?.text?="Kimposibleeee Y Rufus"
+        cell.imgLis?.image=UIImage(named: "kimpossible.jpg")
+        
+        }
         return cell;
         
     }

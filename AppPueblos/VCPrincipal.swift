@@ -31,36 +31,40 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource{
         if indexPath.row == 0
         {
            cell.lblNombre?.text="Joaquin"
+            cell.lblImagen?.image=UIImage(named: "kimpossible.jpg")
             
         }
         else if (indexPath.row == 1)
         {
             cell.lblNombre?.text="Yony"
-            
-            
+            cell.lblImagen?.image=UIImage(named: "pueblo.jpg")
         } else if (indexPath.row == 2)
         {
             cell.lblNombre?.text="Pepe"
+            cell.lblImagen?.image=UIImage(named: "kimpossible.jpg")
             
         }
         else if (indexPath.row == 3)
         {
             cell.lblNombre?.text="David"
+            cell.lblImagen?.image=UIImage(named: "pueblo.jpg")
             
         }
         else if (indexPath.row == 4)
         {
             cell.lblNombre?.text="Pablo"
-            
+            cell.lblImagen?.image=UIImage(named: "kimpossible.jpg")
         }
         else if (indexPath.row == 5)
         {
             cell.lblNombre?.text="Alvaro"
+            cell.lblImagen?.image=UIImage(named: "pueblo.jpg")
             
         }
         else
         {
-            cell.lblNombre?.text="Pepito"
+            cell.lblNombre?.text="Javi Script"
+            cell.lblImagen?.image=UIImage(named: "kimpossible.jpg")
             
         };        return cell;
     }
