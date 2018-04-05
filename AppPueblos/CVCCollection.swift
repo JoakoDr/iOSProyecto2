@@ -10,4 +10,9 @@ import UIKit
 
 class CVCCollection: UICollectionViewCell {
     
+    @IBOutlet var lblMensaje:UILabel?
+    @IBOutlet var imgLis:UIImageView?
+    
+   
+    
 }
