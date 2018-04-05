@@ -19,8 +19,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        user?.text = miNombre
-        pass?.text="Password"
+        user?.text = ""
+        pass?.text=""
         
         
     }
