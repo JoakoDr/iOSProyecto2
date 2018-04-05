@@ -1,4 +1,4 @@
-//
+   //
 //  VCPrincipal.swift
 //  AppPueblos
 //
@@ -22,14 +22,48 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource{
         // Dispose of any resources that can be recreated.
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3;
+        return 7;
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "micelda1")!
-        return cell;
+        let cell:TVCMiCelda = tableView.dequeueReusableCell(withIdentifier: "micelda1") as! TVCMiCelda
+        
+        if indexPath.row == 0
+        {
+           cell.lblNombre?.text="Joaquin"
+            
+        }
+        else if (indexPath.row == 1)
+        {
+            cell.lblNombre?.text="Yony"
+            
+            
+        } else if (indexPath.row == 2)
+        {
+            cell.lblNombre?.text="Pepe"
+            
+        }
+        else if (indexPath.row == 3)
+        {
+            cell.lblNombre?.text="David"
+            
+        }
+        else if (indexPath.row == 4)
+        {
+            cell.lblNombre?.text="Pablo"
+            
+        }
+        else if (indexPath.row == 5)
+        {
+            cell.lblNombre?.text="Alvaro"
+            
+        }
+        else
+        {
+            cell.lblNombre?.text="Pepito"
+            
+        };        return cell;
     }
-
     /*
     // MARK: - Navigation
 
@@ -41,3 +75,4 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource{
     */
 
 }
+   

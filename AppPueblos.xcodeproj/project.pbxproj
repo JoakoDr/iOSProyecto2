@@ -14,6 +14,7 @@
 		A4234252207363140066F72A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4234250207363140066F72A /* LaunchScreen.storyboard */; };
 		A423425D207363140066F72A /* AppPueblosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423425C207363140066F72A /* AppPueblosTests.swift */; };
 		A4234268207363140066F72A /* AppPueblosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4234267207363140066F72A /* AppPueblosUITests.swift */; };
+		A49392B6207609CF00F8E4A7 /* TVCMiCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49392B5207609CF00F8E4A7 /* TVCMiCelda.swift */; };
 		A4998E1B20737DBA0073324F /* VCRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4998E1A20737DBA0073324F /* VCRegistrar.swift */; };
 		A4998E1F20738BF80073324F /* VCPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4998E1E20738BF80073324F /* VCPrincipal.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		A4234263207363140066F72A /* AppPueblosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppPueblosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4234267207363140066F72A /* AppPueblosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPueblosUITests.swift; sourceTree = "<group>"; };
 		A4234269207363140066F72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49392B5207609CF00F8E4A7 /* TVCMiCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCMiCelda.swift; sourceTree = "<group>"; };
 		A4998E1A20737DBA0073324F /* VCRegistrar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistrar.swift; sourceTree = "<group>"; };
 		A4998E1E20738BF80073324F /* VCPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPrincipal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				A4234253207363140066F72A /* Info.plist */,
 				A4998E1A20737DBA0073324F /* VCRegistrar.swift */,
 				A4998E1E20738BF80073324F /* VCPrincipal.swift */,
+				A49392B5207609CF00F8E4A7 /* TVCMiCelda.swift */,
 			);
 			path = AppPueblos;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				A423424A207363140066F72A /* ViewController.swift in Sources */,
 				A4234248207363140066F72A /* AppDelegate.swift in Sources */,
 				A4998E1B20737DBA0073324F /* VCRegistrar.swift in Sources */,
+				A49392B6207609CF00F8E4A7 /* TVCMiCelda.swift in Sources */,
 				A4998E1F20738BF80073324F /* VCPrincipal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

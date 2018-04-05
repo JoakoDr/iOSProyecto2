@@ -9,6 +9,9 @@
 import UIKit
 
 class TVCMiCelda: UITableViewCell {
+    
+    @IBOutlet var lblNombre:UILabel?
+    @IBOutlet var lblNombre2:UILabel?
 
     override func awakeFromNib() {
         super.awakeFromNib()
