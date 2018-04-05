@@ -16,9 +16,9 @@ class VCRegistrar: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        user2?.text = "LOL"
-        pass2?.text="Password"
-        pass3?.text="Repeat Password"        // Do any additional setup after loading the view.
+        user2?.text = "New User"
+        pass2?.text=""
+        pass3?.text=""        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,9 +27,11 @@ class VCRegistrar: UIViewController {
     }
     @IBAction func login()
     {
+        if(!((user2?.text?.isEmpty)! || (pass2?.text?.isEmpty)! || (pass3?.text?.isEmpty)!)){
         if pass2?.text == pass3?.text
         {
             self.performSegue(withIdentifier: "trlogin", sender: self)        }
+        }
     }
     
        /*
